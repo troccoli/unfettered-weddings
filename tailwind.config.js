@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
     purge: [
         './resources/**/*.blade.php',
@@ -6,10 +8,24 @@ module.exports = {
     ],
     darkMode: false, // or 'media' or 'class'
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                sans: ['Noto Sans', ...defaultTheme.fontFamily.sans],
+            },
+            colors: {
+                'uw-pink': {
+                    DEFAULT: '#ffeeea',
+                },
+                'uw-gray': {
+                    DEFAULT: '#3c3c3c',
+                }
+            }
+        },
     },
     variants: {
         extend: {},
     },
-    plugins: [],
+    plugins: [
+        require('@tailwindcss/forms'),
+    ],
 }
