@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+a.nav-link {
+    position: relative;
+    padding-bottom: 0.25rem;
+}
+a.nav-link::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 70px;
+    height: 2px;
+    bottom: 0;
+    left: calc((100% - 70px)/2);
+    background-color: currentColor;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+a.nav-link:hover::before {
+    transform: scaleX(1);
+}
