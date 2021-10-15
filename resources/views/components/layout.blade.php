@@ -17,8 +17,10 @@
 
 </head>
 <body class="antialiased">
+<x-development.breakpoints/>
 <x-navigation/>
 {{ $slot }}
 <x-footer/>
+<x-development.breakpoints/>
 </body>
 </html>
