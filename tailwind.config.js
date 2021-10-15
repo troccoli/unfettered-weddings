@@ -19,6 +19,16 @@ module.exports = {
                 'uw-gray': {
                     DEFAULT: '#3c3c3c',
                 }
+            },
+            width: {
+                'mobile-logo': '180px',
+                'tablet-logo': '270px',
+                'desktop-logo': '300px',
+            },
+            height: {
+                'mobile-logo': '180px',
+                'tablet-logo': '270px',
+                'desktop-logo': '300px',
             }
         },
     },
