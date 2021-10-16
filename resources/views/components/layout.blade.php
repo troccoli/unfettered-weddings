@@ -15,10 +15,13 @@
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 
+    <script defer src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
 </head>
-<body class="antialiased">
+<body class="antialiased mx-auto flex flex-col justify-items-center">
 <x-development.breakpoints/>
 <x-navigation/>
+<div class="w-full">
+</div>
 {{ $slot }}
 <x-footer/>
 <x-development.breakpoints/>
