@@ -1,5 +1,5 @@
-<div class="w-full bg-uw-gray text-uw-pink">
-    <div class="2xl:w-4/5 mx-auto flex flex-col lg:flex-row">
+<x-container class="bg-uw-gray text-uw-pink">
+    <div class="flex flex-col lg:flex-row">
         <div class="lg:w-1/3 mx-auto mt-14 lg:m-auto lg:flex lg:place-content-center">
             <img src="{{ url('images/logo-square-gray-mobile-footer.png') }}" alt="Unfettered Weddings logo"
                  class=" md:hidden">
@@ -23,7 +23,7 @@
             <a href="https://www.avigupta.me/">Designed by Avi Gupta</a>
         </div>
     </div>
-</div>
-<div class="w-full bg-uw-gray text-uw-pink text-center text-xs pb-1 hover:underline hidden lg:block">
-    <a href="https://www.avigupta.me/">Designed by Avi Gupta</a>
-</div>
+    <div class="text-center text-xs pb-1 hover:underline hidden lg:block">
+        <a href="https://www.avigupta.me/">Designed by Avi Gupta</a>
+    </div>
+</x-container>
