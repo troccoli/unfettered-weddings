@@ -1,7 +1,12 @@
 <x-layout>
-    <x-container class="bg-uw-pink text-uw-gray">
-        <div class="p-4">
-            HOMEPAGE
+    <x-container class="text-uw-gray">
+        <div class="p-5">
+{{--            <x-testimonial-card image="{{ url('images/testimonials/placeholder.jpg') }}" couple="Amy and Jackson">--}}
+{{--                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the--}}
+{{--                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and--}}
+{{--                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap--}}
+{{--                into electronic typesetting, remaining essentially unchanged.--}}
+{{--            </x-testimonial-card>--}}
         </div>
     </x-container>
 </x-layout>
