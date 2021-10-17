@@ -1,11 +1,11 @@
 <x-container class="bg-uw-gray text-uw-pink">
     <div class="flex flex-col lg:flex-row">
         <div class="lg:w-1/3 mx-auto mt-14 lg:m-auto lg:flex lg:place-content-center">
-            <img src="{{ url('images/logo-square-gray-mobile-footer.png') }}" alt="Unfettered Weddings logo"
+            <img src="{{ url('images/logos/square-gray-mobile-footer.png') }}" alt="Unfettered Weddings logo"
                  class=" md:hidden">
-            <img src="{{ url('images/logo-square-gray-tablet-footer.png') }}" alt="Unfettered Weddings logo"
+            <img src="{{ url('images/logos/square-gray-tablet-footer.png') }}" alt="Unfettered Weddings logo"
                  class="hidden md:block lg:hidden">
-            <img src="{{ url('images/logo-square-gray-desktop-footer.png') }}" alt="Unfettered Weddings logo"
+            <img src="{{ url('images/logos/square-gray-desktop-footer.png') }}" alt="Unfettered Weddings logo"
                  class="hidden lg:block">
         </div>
         <ul class="lg:w-1/3 lg:m-auto text-center text-base md:text-lg font-normal space-y-5 md:space-y-7">

@@ -3,11 +3,11 @@
          class="flex flex-col md:items-center md:justify-between md:flex-row">
         <div class="flex md:flex-none flex-row items-center justify-between">
             <div class="h-auto md:h-32 lg:h-40">
-                <img src="{{ url('images/logo-square-white-mobile-navbar.png') }}" alt="Unfettered Weddings logo"
+                <img src="{{ url('images/logos/square-white-mobile-navbar.png') }}" alt="Unfettered Weddings logo"
                      class=" md:hidden">
-                <img src="{{ url('images/logo-square-white-tablet-navbar.png') }}" alt="Unfettered Weddings logo"
+                <img src="{{ url('images/logos/square-white-tablet-navbar.png') }}" alt="Unfettered Weddings logo"
                      class="hidden md:block lg:hidden">
-                <img src="{{ url('images/logo-square-white-desktop-navbar.png') }}" alt="Unfettered Weddings logo"
+                <img src="{{ url('images/logos/square-white-desktop-navbar.png') }}" alt="Unfettered Weddings logo"
                      class="hidden lg:block">
             </div>
             <button class="mr-5 md:hidden rounded-lg focus:outline-none focus:shadow-outline text-black"
