@@ -14,6 +14,7 @@
 
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+    @livewireStyles
 
     <script defer src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
 </head>
@@ -25,5 +26,6 @@
 {{ $slot }}
 <x-footer/>
 <x-development.breakpoints/>
+@livewireScripts
 </body>
 </html>
