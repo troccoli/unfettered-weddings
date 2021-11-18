@@ -13,4 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::view('/', 'home');
+Route::view('/', 'home')->name('home');
+Route::view('/about-humanism', 'about-humanism')->name('about-humanism');
+Route::view('/contact-me', 'contact-me')->name('contact-me');
+Route::view('/humanist-weddings', 'humanist-weddings')->name('humanist-weddings');
+Route::view('/unfettered-community', 'unfettered-community')->name('unfettered-community');
