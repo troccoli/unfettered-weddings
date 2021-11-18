@@ -1,1 +1,1 @@
-<x-round-button url="#">Book a call</x-round-button>
+<x-round-button url="{{ route('contact-me') }}">Book a call</x-round-button>

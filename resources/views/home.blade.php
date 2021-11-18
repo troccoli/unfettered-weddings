@@ -4,5 +4,5 @@
 {{--    <x-homepage.testimonials />--}}
     <x-homepage.gallery />
     <x-homepage.about-me />
-    <x-homepage.contact-me />
+    <x-contact-me />
 </x-layout>

@@ -1,3 +1,3 @@
 <x-layout>
-    Contact me
+    <x-contact-me />
 </x-layout>
