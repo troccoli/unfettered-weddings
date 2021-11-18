@@ -10,7 +10,7 @@
         </div>
         <ul class="lg:w-1/3 lg:m-auto text-center text-base md:text-lg font-normal space-y-5 md:space-y-7">
             <li><a href="#" class="nav-link">About humanism</a></li>
-            <li><a href="#" class="nav-link">Testimonials</a></li>
+{{--            <li><a href="#" class="nav-link">Testimonials</a></li>--}}
             <li><a href="#" class="nav-link">Contact me</a></li>
         </ul>
         <div
