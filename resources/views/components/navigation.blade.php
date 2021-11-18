@@ -25,7 +25,6 @@
         <nav :class="{'flex': open, 'hidden': !open}"
              class="flex-col flex-grow pr-8 py-4 md:py-0 text-base md:text-lg font-normal hidden md:flex md:justify-end md:flex-row bg-uw-gray md:bg-white">
             <a href="{{ route('home') }}" class="nav-link mx-4 my-2 whitespace-nowrap w-min">Home</a>
-            <a href="{{ route('humanist-weddings') }}" class="nav-link mx-4 my-2 whitespace-nowrap w-min">Humanist weddings</a>
 {{--            <a href="#" class="nav-link mx-4 my-2 whitespace-nowrap w-min">Testimonials</a>--}}
             <a href="{{ route('unfettered-community') }}" class="nav-link mx-4 my-2 whitespace-nowrap w-min">We are Unfettered</a>
             <div @click.away="open = false" class="relative hidden" x-data="{ open: false }">
