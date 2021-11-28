@@ -8,7 +8,7 @@
             <h1 class="mt-8 text-4xl">Unfettered Weddings</h1>
             <p class="mt-8 mx-auto md:mx-0 w-4/5 text-2xl">Making your special day worth remembering</p>
             <div class="hidden flex justify-start md:block">
-                <x-homepage.book-a-call-button link="home"/>
+                <x-homepage.book-a-call-button/>
             </div>
         </div>
     </div>
