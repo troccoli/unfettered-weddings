@@ -7,7 +7,7 @@
             <p>So, who are we?
             </p>
             <p>
-                Simply put, we are the ones "<span class="italic">not limited by rules or any other controlling influence</span>>".
+                Simply put, we are the ones "<span class="italic">not limited by rules or any other controlling influence</span>".
                 But what are these rules?
             </p>
             <p>
