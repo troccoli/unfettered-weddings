@@ -17,7 +17,8 @@
             </p>
             <p>
                 If you have ever felt that somehow you didn't fit, whether because of your sexual orientation,
-                disability, life-style, beliefs, or anything else, then you are part of the Unfettered Community.
+                disability, life-style, beliefs (or rather, lack of), or anything else, then you are part of the
+                Unfettered Community.
             </p>
             <p>
                 I am particularly interested in working with people from the LGBTQI+ community, people who identify
