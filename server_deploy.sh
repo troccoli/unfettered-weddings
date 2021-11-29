@@ -22,11 +22,7 @@ php artisan storage:link
 # Note: If you're using queue workers, this is the place to restart them.
 # ...
 
-# Clear caches
-php artisan event:clear --no-interaction
-php artisan optimize:clear --no-interaction
-
-# Rebuild cache
+# Clear and rebuild cache
 php artisan optimize --no-interaction
 php artisan view:cache --no-interaction
 php artisan event:cache --no-interaction
