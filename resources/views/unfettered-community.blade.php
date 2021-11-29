@@ -12,7 +12,7 @@
             </p>
             <p>
                 The world is geared towards heterosexual couples, that's a rule. The patriarchal society wants the woman
-                to be given away, that's a rule. Marriage is to be “consumed”, that's a rule. I could go on, but I think
+                to be given away, that's a rule. Marriage is to be "consumed", that's a rule. I could go on, but I think
                 you understand now.
             </p>
             <p>
