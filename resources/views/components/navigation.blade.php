@@ -4,7 +4,7 @@
         <div class="flex md:flex-none flex-row items-center justify-between">
             <div class="h-auto md:h-32 lg:h-40">
                 <img src="{{ url('images/logos/square-white-mobile-navbar.png') }}" alt="Unfettered Weddings logo"
-                     class=" md:hidden">
+                     class="md:hidden">
                 <img src="{{ url('images/logos/square-white-tablet-navbar.png') }}" alt="Unfettered Weddings logo"
                      class="hidden md:block lg:hidden">
                 <img src="{{ url('images/logos/square-white-desktop-navbar.png') }}" alt="Unfettered Weddings logo"
@@ -25,8 +25,9 @@
         <nav :class="{'flex': open, 'hidden': !open}"
              class="flex-col flex-grow pr-8 py-4 md:py-0 text-base md:text-lg font-normal hidden md:flex md:justify-end md:flex-row bg-uw-gray md:bg-white">
             <a href="{{ route('home') }}" class="nav-link mx-4 my-2 whitespace-nowrap w-min">Home</a>
-{{--            <a href="#" class="nav-link mx-4 my-2 whitespace-nowrap w-min">Testimonials</a>--}}
-            <a href="{{ route('unfettered-community') }}" class="nav-link mx-4 my-2 whitespace-nowrap w-min">We are Unfettered</a>
+            {{--            <a href="#" class="nav-link mx-4 my-2 whitespace-nowrap w-min">Testimonials</a>--}}
+            <a href="{{ route('unfettered-community') }}" class="nav-link mx-4 my-2 whitespace-nowrap w-min">We are
+                Unfettered</a>
             <div @click.away="open = false" class="relative hidden" x-data="{ open: false }">
                 <button @click="open = !open"
                         class="flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:focus:bg-gray-600 dark-mode:hover:bg-gray-600 md:w-auto md:inline md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
