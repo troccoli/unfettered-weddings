@@ -34,7 +34,7 @@ class ContactMe extends Component
     {
         $details = $this->validate();
 
-        Mail::to(config('mail.from.address'), config('mail.from.name'))
+        Mail::to(config('mail.from.address'))
             ->send(new ContactFormMailable($details));
 
         $this->successMessage = 'Thank you for reaching out! I will get back to you as soon as possible';
