@@ -2,7 +2,7 @@
     @if($successMessage)
     <div class="w-full h-full absolute block top-0 left-0 bg-uw-pink z-50">
         <div class="w-full mt-12 md:mt-0 px-8 md:pl-24 leading-loose tracking-wider">
-            <p>Thank you for contacting me. I will be in touch.</p>
+            <p>{{ $successMessage }}</p>
         </div>
      </div>
     @endif
@@ -15,7 +15,7 @@
                     <input wire:model="name"
                            class="w-full px-5 py-3 border-none focus:ring-uw-gray leading-loose tracking-wider"
                            type="text"
-                           placeholder="Name" name="name" value="{{ old('name') }}"/>
+                           placeholder="{{ trans('contact-me.placeholders.name', [], $locale) }}" name="name" value="{{ old('name') }}"/>
                     @error('name')
                     <p class="text-red-800 mt-1 ml-5">{{ $message }}</p>
                     @enderror
@@ -24,7 +24,7 @@
                     <input wire:model="email"
                            class="w-full px-5 py-3 border-none focus:ring-uw-gray leading-loose tracking-wider"
                            type="text"
-                           placeholder="Email" name="email" value="{{ old('email') }}"/>
+                           placeholder="{{ trans('contact-me.placeholders.email', [], $locale) }}" name="email" value="{{ old('email') }}"/>
                     @error('email')
                     <p class="text-red-800 mt-1 ml-5">{{ $message }}</p>
                     @enderror
@@ -32,7 +32,7 @@
                 <div class="py-3">
                     <textarea wire:model.defer="message" row="4"
                               class="w-full h-40 px-5 py-3 border-none focus:ring-uw-gray leading-loose tracking-wider"
-                              name="comment" placeholder="Your message">{{ old('comment') }}</textarea>
+                              name="comment" placeholder="{{ trans('contact-me.placeholders.message', [], $locale) }}">{{ old('comment') }}</textarea>
                     @error('message')
                     <p class="text-red-800 mt-1 ml-5">{{ $message }}</p>
                     @enderror
@@ -45,7 +45,7 @@
                         <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                         <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                     </svg>
-                    <span class="leading-loose tracking-wider">Send</span>
+                    <span class="leading-loose tracking-wider">{{ trans('contact-me.button', [], $locale) }}</span>
                 </button>
             </div>
         </div>

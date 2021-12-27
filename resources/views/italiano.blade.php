@@ -16,4 +16,5 @@
             </p>
         </x-section-text>
     </x-container>
+    <x-contact-me locale="it"/>
 </x-layout>
