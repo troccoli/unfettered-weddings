@@ -12,6 +12,7 @@ class ContactMe extends Component
     public string $name = '';
     public string $message = '';
     public string $successMessage = '';
+    public string $locale = 'en';
 
     protected $rules = [
         'email' => 'required|email',
@@ -19,11 +20,19 @@ class ContactMe extends Component
         'message' => 'required|min:20',
     ];
 
-    protected $messages = [
-        'email.*' => 'Please enter a valid email address.',
-        'name.*' => ' Please enter your name (or how you wished to be called).',
-        'message.*' => "That's a bit short, tell me more.",
-    ];
+    public function mount(string $locale)
+    {
+        $this->locale = $locale ?? 'en';
+    }
+
+    protected function getMessages(): array
+    {
+        return [
+            'email.*' => trans('contact-me.validation.email', [], $this->locale),
+            'name.*' => trans('contact-me.validation.name', [], $this->locale),
+            'message.*' => trans('contact-me.validation.message', [], $this->locale),
+        ];
+    }
 
     public function updated($propertyName)
     {
@@ -37,7 +46,7 @@ class ContactMe extends Component
         Mail::to(config('mail.from.address'))
             ->send(new ContactFormMailable($details));
 
-        $this->successMessage = 'Thank you for reaching out! I will get back to you as soon as possible';
+        $this->successMessage = trans('contact-me.success', [], $this->locale);
 
         $this->resetForm();
     }

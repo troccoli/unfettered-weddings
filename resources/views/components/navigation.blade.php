@@ -28,6 +28,7 @@
             {{--            <a href="#" class="nav-link mx-4 my-2 whitespace-nowrap w-min">Testimonials</a>--}}
             <a href="{{ route('unfettered-community') }}" class="nav-link mx-4 my-2 whitespace-nowrap w-min">We are
                 Unfettered</a>
+            <a href="{{ route('italiano') }}" class="nav-link mx-4 my-2 whitespace-nowrap w-min">Italiano</a>
             <div @click.away="open = false" class="relative hidden" x-data="{ open: false }">
                 <button @click="open = !open"
                         class="flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:focus:bg-gray-600 dark-mode:hover:bg-gray-600 md:w-auto md:inline md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
