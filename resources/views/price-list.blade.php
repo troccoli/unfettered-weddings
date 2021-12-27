@@ -3,8 +3,8 @@
         <x-section-title class="mb-6">Price list</x-section-title>
         <x-section-text>
             <p>
-                For many talking about money is a bit awkward. But it shouldn't be. It's your wedding and you need know
-                how much it is going to cost you so you can budget it (and choose me because, well, I'm awesome).
+                For many talking about money is a bit awkward. But it shouldn't be. It's your wedding and you need to
+                know how much it is going to cost you so you can budget it (and choose me because, well, I'm awesome).
             </p>
             <p>
                 My current price for 2022 is £600. This includes:
