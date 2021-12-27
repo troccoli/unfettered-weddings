@@ -12,6 +12,7 @@
 {{--            <li><a href="{{ route('about-humanism') }}" class="nav-link">About humanism</a></li>--}}
             <li><a href="{{ route('contact-me') }}" class="nav-link">Contact me</a></li>
             <li><a href="{{ route('privacy-notice') }}" class="nav-link">Privacy notice</a></li>
+            <li><a href="{{ route('price-list') }}" class="nav-link">Price list</a></li>
         </ul>
         <div
             class="w-1/2 sm:w-1/3 mx-auto my-14 md:my-16 lg:m-auto flex justify-between lg:justify-center lg:space-x-8 xl:space-x-12">
