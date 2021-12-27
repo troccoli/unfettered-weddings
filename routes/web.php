@@ -18,3 +18,4 @@ Route::view('/', 'home')->name('home');
 Route::view('/contact-me', 'contact-me')->name('contact-me');
 Route::view('/unfettered-community', 'unfettered-community')->name('unfettered-community');
 Route::view('/italiano', 'italiano')->name('italiano');
+Route::view('/privacy-notice', 'privacy-notice')->name('privacy-notice');
