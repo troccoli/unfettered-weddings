@@ -1,3 +1,3 @@
 <x-layout>
-    <x-contact-me />
+    <x-contact-me white/>
 </x-layout>
