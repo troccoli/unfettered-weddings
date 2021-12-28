@@ -1,31 +1,29 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
+const colors = require('tailwindcss/colors')
 
 module.exports = {
-    purge: [
+    content: [
         './resources/**/*.blade.php',
-        './resources/**/*.js',
-        './resources/**/*.vue',
+        './resources/**/*.js'
     ],
-    darkMode: false, // or 'media' or 'class'
     theme: {
-        extend: {
-            fontFamily: {
-                sans: ['Noto Sans', ...defaultTheme.fontFamily.sans],
-            },
-            colors: {
-                'uw-pink': {
-                    DEFAULT: '#ffeeea',
-                },
-                'uw-gray': {
-                    DEFAULT: '#3c3c3c',
-                }
-            },
+        fontFamily: {
+            sans: ['Noto Sans', ...defaultTheme.fontFamily.sans],
         },
-    },
-    variants: {
-        extend: {
-            animation: ['group-hover'],
-        },
+        colors: {
+            transparent: 'transparent',
+            current: 'currentColor',
+            black: colors.black,
+            white: colors.white,
+            gray: colors.gray,
+            red: colors.red,
+            yellow: colors.yellow,
+            green: colors.green,
+            blue: colors.blue,
+            pink: colors.pink,
+            'uw-pink': '#ffeeea',
+            'uw-gray': '#3c3c3c'
+        }
     },
     plugins: [
         require('@tailwindcss/forms'),
