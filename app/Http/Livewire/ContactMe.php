@@ -13,6 +13,7 @@ class ContactMe extends Component
     public string $message = '';
     public string $successMessage = '';
     public string $locale = 'en';
+    public bool $whiteBackground = false;
 
     protected $rules = [
         'email' => 'required|email',
@@ -20,9 +21,10 @@ class ContactMe extends Component
         'message' => 'required|min:20',
     ];
 
-    public function mount(string $locale)
+    public function mount(string $locale, bool $white)
     {
         $this->locale = $locale ?? 'en';
+        $this->whiteBackground = $white ?? false;
     }
 
     protected function getMessages(): array
