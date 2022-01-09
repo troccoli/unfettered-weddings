@@ -20,11 +20,5 @@
             <x-social.instagram/>
             <x-social.twitter/>
         </div>
-        <div class="w-full text-center text-xs pb-1 hover:underline lg:hidden">
-            <a href="https://www.avigupta.me/">Designed by Avi Gupta</a>
-        </div>
-    </div>
-    <div class="text-center text-xs pb-1 hover:underline hidden lg:block">
-        <a href="https://www.avigupta.me/">Designed by Avi Gupta</a>
     </div>
 </x-container>
