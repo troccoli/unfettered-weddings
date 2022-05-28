@@ -9,6 +9,7 @@ module.exports = {
     theme: {
         fontFamily: {
             sans: ['Noto Sans', ...defaultTheme.fontFamily.sans],
+            speech: ['Roboto', ...defaultTheme.fontFamily.serif]
         },
         colors: {
             transparent: 'transparent',

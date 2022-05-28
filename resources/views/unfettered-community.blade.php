@@ -2,9 +2,12 @@
     <x-container>
         <x-section-title class="mb-6">The Unfettered Community</x-section-title>
         <x-section-text>
-            <p>This is probably the most important section and one of the reasons why I became a wedding celebrant: the
-                Unfettered Community.</p>
-            <p>So, who are we?
+            <p>
+                This is probably the most important section and one of the reasons why I became a wedding celebrant: the
+                Unfettered Community.
+            </p>
+            <p>
+                So, who are we?
             </p>
             <p>
                 Simply put, we are the ones "<span class="italic">not limited by rules or any other controlling influence</span>".

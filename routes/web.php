@@ -20,3 +20,4 @@ Route::view('/unfettered-community', 'unfettered-community')->name('unfettered-c
 Route::view('/italiano', 'italiano')->name('italiano');
 Route::view('/privacy-notice', 'privacy-notice')->name('privacy-notice');
 Route::view('/price-list', 'price-list')->name('price-list');
+Route::view('/samples', 'samples')->name('samples');
